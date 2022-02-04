@@ -1,0 +1,836 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+img.himmel {
+    opacity: 0.5;
+}
+header nav {
+    display: flex;
+    height: 0px;
+}
+ul {
+    display: flex;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    position: absolute;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+}
+main {
+    background-color: white;
+}
+.fas.fa-times {
+    font-weight: 900;
+    margin-left: 220px;
+    position: absolute;
+}
+.forside {
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-bars:before {
+    position: absolute;
+    top: 20px;
+    left: 90%;
+}
+.pforside {
+    position: absolute;
+    top: 25%;
+}
+.fa-arrow-down:before {
+    position: absolute;
+    top: 28%;
+}
+h1 {  
+    font-size: 50px;
+    position: absolute; 
+    top: 20%;
+}
+h2 {
+    top: 30%;
+    font-size: 15px;
+    position: absolute; 
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 15px 50px 15px;
+    line-height: 40px;
+}
+h4 {
+    position: absolute;
+    margin-top: 120px;
+    color: white;
+    font-size: 30px;
+}
+h5.vejleh5 {
+    place-self: flex-start;
+    font-size: 30px;
+}
+h5.koldingh5 {
+    place-self: flex-start;
+    font-size: 30px;
+}
+h6 {
+    font-size: 30px;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.about {
+    display: flex;
+    text-align-last: center;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.aabout {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    top: 150%;
+    left: 83%;
+    margin-bottom: 30px;
+}
+div.newsletter {
+    background-color: black;
+    color: white;
+    padding: 19px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.produkter1 img, .produkter2 img {
+    max-width: 100%;
+    height: 220px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.vejle, .kolding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.vejle a, .kolding a {
+    background: black;
+    width: 15%;
+    padding: 5px 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.produkter1, .produkter2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 35px;
+}
+.produkter1 a, .produkter2 a {
+    text-decoration: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    position: absolute;
+    margin-top: 180px;
+    left: 76%;
+}
+.bil1 {
+    background-image: url(../images/vejle_50_70.svg);
+    background-repeat: no-repeat;  
+    background-size: 95%;
+    background-position: center;
+    background-position-y: bottom;
+}
+.bil2 {
+    background-image: url(../images/kolding_70_100_2_w.svg);
+    background-repeat: no-repeat;  
+    background-size: 95%;
+    background-position: center;
+    background-position-y: center;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+div.stories {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ig {
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+}
+.h6ig {
+    position:absolute;
+    margin-bottom: 200px;
+    width: 100%;
+}
+.instagram {
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    place-self: center;
+}
+footer {
+    background-color: black;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav.footerlinks {
+    color: white;
+}
+footer span {
+    color: white;
+    font-size: 10px;
+    position: relative;
+}
+footer a {
+    color: white;
+}
+span {
+    display: flex;
+    justify-content: center;
+}
+footer nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    font-size: 13px;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+
+@media screen and (min-width: 590px) {
+    .forside-h1 {
+        font-size: 100px;
+    }
+    header li {
+        display: inline;
+    }
+    h2 {
+        top: 30%;
+    }
+    h4 {
+        font-size: 50px;
+        top: 50px;
+    }
+    .pforside {
+        position: absolute;
+        top: 30%;
+    }
+    .fa-arrow-down:before {
+        position: absolute;
+        top: 35%;
+    }
+    div.newsletter {
+        padding: 30px;
+    }
+    .fas.fa-times {
+        font-weight: 900;
+        margin-left: 290px;
+    }
+    .logo {
+        position: absolute;
+        width: 20px;
+        top: 20px;
+        left: 20px;
+    }
+    p {
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    div.stories {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        background-color: black;
+        height: 200px;
+    }
+    nav a {
+        text-decoration: none; 
+    }
+    footer nav {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 690px) {
+    .forside-h1 {
+        font-size: 100px;
+    }
+    header li {
+        display: inline;
+    }
+    .fa-bars:before {
+        position: absolute;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    h1 {  
+        font-size: 60px;
+        position: absolute; 
+        top: 27%;
+    }
+    h2 {
+        top: 39%;
+    }
+    h3 {
+        top: 35%;
+    }
+    h4 {
+        top: 85px;
+    }
+    h5.vejleh5 {
+        position: absolute;
+        margin-bottom: 250px;
+    }
+    h5.koldingh5 {
+        position: absolute;
+        margin-bottom: 250px;
+    }
+    h6 {
+        font-size: 25px;
+    }
+    .h6ig {
+        margin-bottom: 325px;
+    }
+    .pforside {
+        position: absolute;
+        top: 60%;
+    }
+    .fa-arrow-down:before {
+        position: absolute;
+        top: 65%;
+    }
+    .aabout {
+        margin-top: 60px;
+    }
+    div.newsletter {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        line-height: 25px;
+        margin-top: 20px;
+        position: absolute;
+        left: 47%;
+        top: 56%;
+    }
+    .fas.fa-times {
+        font-weight: 900;
+        margin-left: 290px;
+        top: 10%;
+    }
+    .logo {
+        position: absolute;
+        width: 40px;
+        top: 20px;
+        left: 20px;
+    }
+    .produkter1 img, .produkter2 img {
+        height: 400px;
+    }
+    .produkter1 a, .produkter2 a {
+        left: 76%;
+        font-size: 22px;
+        margin-bottom: 380px;
+        margin-top: 715px;
+    }
+    h2.vejleh2 {
+        place-self: flex-start;
+        font-size: 70px;
+    }
+    h2.koldingh2 {
+        place-self: flex-start;
+        font-size: 70px;
+    }
+    .bil1 {
+        background-size: 85%;
+        background-image: url(../images/vejle_50_70.svg);
+        height: 400px;
+        align-content: center; 
+    }
+    .bil2 {
+        background-size: 85%;
+        background-image: url(../images/kolding_70_100_2_w.svg);
+        height: 400px;
+        align-content: center;
+    }
+    p {
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    div.stories {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .instagram {
+        height: 220px;
+    }
+    footer {
+        background-color: black;
+        height: 200px;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    footer nav {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 895px) {
+    .forside-h1 {
+        font-size: 100px;
+    }
+    header li {
+        display: inline;
+    }
+    .fa-bars {
+        display: none;
+    }
+    h1 {  
+        font-size: 60px;
+        position: absolute; 
+        top: 30%;
+    }
+    h2 {
+        top: 40%;
+    }
+    h3 {
+        font-size: 25px;
+        top: 40%;
+    }
+    h4 {
+        top: 25%;
+        text-decoration: none;
+        position: absolute;
+    }
+    .pforside {
+        position: absolute;
+        top: 80%;
+    }
+    .fa-arrow-down:before {
+        position: absolute;
+        top: 85%;
+    }
+    div.newsletter {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        line-height: 25px;
+        margin-top: 20px;
+        position: absolute;
+        left: 53%;
+        top: 65%;
+    }
+    .fas.fa-times {
+        font-weight: 900;
+        margin-left: 290px;
+        position: absolute;
+        top: 10%;
+    }
+    p {
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    div.stories {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ig {
+        background-color: #F2F2F2;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 50px;
+    }
+    .h2ig {
+        position:absolute;
+        left: 20%;
+        margin-bottom: 200px;
+    }
+    .instagram {
+        height: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        place-self: center;
+    }
+    footer {
+        background-color: black;
+        height: 200px;
+    }
+    nav a {
+        text-decoration: none; 
+    }
+    .h6ig {
+        margin-bottom: 200px;
+    }
+    footer span {
+        color: white;
+        font-size: 10px;
+        position: relative;
+    }
+    footer nav {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .forside-h1 {
+        font-size: 100px;
+    }
+    header li {
+        display: flex;
+        margin-right: 55px;
+    }
+    header nav {
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 60px;
+        background-color: #F2F2F2;
+        width: 100%;
+        color: black;
+    }
+    .fa-bars {
+        display: none;
+    }
+    h1 {  
+        font-size: 60px;
+        position: absolute; 
+    }
+    h2 {
+       margin-top: 10px;
+    }
+    h4 {
+        top: 30%;
+        text-decoration: none;
+        position: absolute;
+    }
+    h3 {
+        font-size: 25px;
+        top: 400px;
+        margin-top: 40px;
+    }
+    .h6ig {
+        margin-bottom: 365px;
+    }
+    .about {
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 40px;
+    }
+    .aabout {
+        margin-bottom: 40px;
+    }
+    .pforside {
+        position: absolute;
+        top: 90%;
+    }
+    .fa-arrow-down:before {
+        position: absolute;
+        top: 97%;
+    }
+    div.newsletter {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        line-height: 25px;
+        margin-top: 56px;
+        position: absolute;
+        left: 64%;
+    }
+    .fas.fa-times {
+        font-weight: 900;
+        margin-left: 290px;
+        position: absolute;
+        top: 10%;
+    }
+    h5.vejleh5, h5.koldingh5 {
+        font-size: 60px;
+    }
+    .produkter1 a, .produkter2 a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 680px;
+    }
+    .logo {
+        width: 50px;
+        margin-left: 20px;
+    }
+    footer a {
+        color: white;
+    }
+    p {
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    div.stories {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bil1 {
+        background-image: url(../images/vejle_50_70.svg);
+        height: 400px;
+        align-content: center;
+        margin-top: 110px; 
+    }
+    .bil2 {
+        background-image: url(../images/kolding_70_100_2_w.svg);
+        height: 400px;
+        align-content: center;
+        background-position: top;
+        margin-bottom: 110px;
+    }
+    .ig {
+        background-color: #F2F2F2;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 50px;
+    }
+    .h2ig {
+        position:absolute;
+        left: 20%;
+        margin-bottom: 200px;
+    }
+    .instagram {
+        height: 265px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        place-self: center;
+    }
+    footer {
+        background-color: black;
+        height: 200px;
+    }
+    nav.footer {
+        text-decoration: none;
+    }
+    footer span {
+        color: white;
+        font-size: 10px;
+        position: relative;
+    }
+    footer nav {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }  
+}
+
+@media screen and (min-width: 1440px) {
+    .forside-h1 {
+        font-size: 100px;
+    }
+    .forside {
+        height: 850px;
+    }
+    header li {
+        display: inline;
+    }
+    .fa-bars {
+        display: none;
+    }
+    h1 {  
+        font-size: 80px;
+        position: absolute; 
+    } 
+    h2 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 45px;
+        top: 500px;
+        line-height: 70px;
+    }
+    h4 {
+        top: 30%;
+        text-decoration: none;
+        position: absolute;
+        font-size: 85px;
+    }
+    .pforside {
+        position: absolute;
+        top: 115%;
+    }
+    .fa-arrow-down:before {
+        position: absolute;
+        top: 120%;
+    }
+    div.newsletter {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        line-height: 25px;
+        margin-top: 20px;
+        position: absolute;
+        left: 71%;
+        top: 74%;
+    }
+    .fas.fa-times {
+        font-weight: 900;
+        margin-left: 290px;
+        position: absolute;
+        top: 10%;
+    }
+    .about {
+        font-size: 27px;
+        line-height: 70px;
+    }
+    .aabout {
+        font-size: 20px;
+        padding: 3% 3% 3% 3%;
+        margin-bottom: 100px;
+        margin-top: 90px;
+    }
+    p {
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    div.stories {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .produkter1 a, .produkter2 a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .ig {
+        background-color: #F2F2F2;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 50px;
+    }
+    .h2ig {
+        position:absolute;
+        left: 20%;
+        margin-bottom: 200px;
+    }
+    .instagram {
+        height: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        place-self: center;
+    }   
+    .ig {
+        background-color: #F2F2F2;
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 120px;
+    }
+    .h6ig {
+        margin-bottom: 38%;
+        font-size: 40px;
+    }
+    .h2ig {
+        position:absolute;
+        left: 30%;
+        margin-bottom: 350px;
+    }
+    .instagram {
+        height: 350px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        place-self: center;
+    }
+    footer {
+        background-color: black;
+        height: 200px;
+    }
+    nav a {
+        text-decoration: none;
+        font-size: 30px;
+    }
+    footer span {
+        color: white;
+        font-size: 10px;
+        position: relative;
+    }
+    footer nav {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.form {
+    padding-top: 50px;
+    justify-content: flex-start;
+}
+.hero {
+    position: relative;
+}
